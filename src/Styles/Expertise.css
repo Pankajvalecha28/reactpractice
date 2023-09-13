@@ -1,0 +1,71 @@
+/* Expertise.css */
+
+.expertise {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .expertise h2 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .expertise-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
+    justify-content: space-between; /* Space items evenly between columns */
+  }
+  
+  .expertise-item {
+    width: calc(30% - 10px); /* Two items per row with a small gap */
+    margin-bottom: 20px;
+    padding: 10px; /* Add some spacing between items */
+    box-sizing: border-box; /* Include padding in item width */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .expertise-item h3 {
+    color: #007bff;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .expertise-item p {
+    color: #555;
+    font-size: 1rem;
+  }
+  /* Expertise.css */
+
+/* ... other styles ... */
+
+.expertise-item {
+    width: calc(40% - 10px); /* Two items per row with a small gap */
+    margin-bottom: 20px;
+    padding: 10px; /* Add some spacing between items */
+    box-sizing: border-box; /* Include padding in item width */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden; /* Hide overflowing content */
+  }
+  /* Expertise.css */
+
+/* ... other styles ... */
+
+.card-title {
+    border-bottom: 1px solid #ccc; /* Add a horizontal line below the title */
+    padding-bottom: 10px; /* Add spacing between title and description */
+    margin-bottom: 10px; /* Adjust margin to your preference */
+  }
+  
+  
+  
+  
+  

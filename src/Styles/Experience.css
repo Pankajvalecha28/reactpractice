@@ -1,0 +1,40 @@
+/* Experience.css */
+
+.experience {
+    padding: 40px;
+    text-align: center;
+    background-color: #f5f5f5;
+  }
+  
+  .experience h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .experience-item {
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  
+  .experience-item h3 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .experience-date {
+    color: #555;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .experience-description {
+    color: #555;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  /* You can add more specific styles for individual experience items if needed */
+  

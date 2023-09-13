@@ -1,0 +1,46 @@
+/* Navbar.css */
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  display: flex;
+  align-items: center; /* Vertically center items */
+  justify-content: space-between; /* Place the logo and links at the ends */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Display the navbar links as a flex container */
+}
+
+li {
+  margin-right: 20px; /* Add spacing between navbar items */
+  letter-spacing: 2px;
+  margin-right: 40px;
+  display: flex; /* Use flex to align logo and links */
+  align-items: center; /* Vertically center logo and links */
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #788d2a92;
+  text-decoration: underline;
+}
+
+/* Style the logo */
+.logo img {
+  width: 100px; /* Adjust the width of the logo to match the links */
+  height: 70px; /* Maintain the aspect ratio of the logo */
+  margin-right: 10px; /* Add spacing between the logo and links */
+}
+
+
+  
