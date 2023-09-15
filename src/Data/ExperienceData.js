@@ -17,6 +17,20 @@ const ExperienceData = [
       description:
         "During my internship at XYZ Company, I gained hands-on experience in web development. I worked on building and maintaining websites, implementing responsive designs, and troubleshooting technical issues. This internship helped me develop my skills and passion for web development.",
     },
+    {
+      id: 2,
+      position: "Web Developer Intern at XYZ Company",
+      date: "May 2019 - August 2019",
+      description:
+        "During my internship at XYZ Company, I gained hands-on experience in web development. I worked on building and maintaining websites, implementing responsive designs, and troubleshooting technical issues. This internship helped me develop my skills and passion for web development.",
+    },
+    {
+      id: 2,
+      position: "Web Developer Intern at XYZ Company",
+      date: "May 2019 - August 2019",
+      description:
+        "During my internship at XYZ Company, I gained hands-on experience in web development. I worked on building and maintaining websites, implementing responsive designs, and troubleshooting technical issues. This internship helped me develop my skills and passion for web development.",
+    },
     // Add more experience objects as needed
   ];
   

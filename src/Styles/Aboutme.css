@@ -1,26 +1,25 @@
-/* src/components/AboutMe.css */
+/* Aboutme.css */
 
 .about-me {
-    background-color: #f2f2f2;
-    padding: 40px 0;
-    text-align: center;
-  }
-  
-  .about-me-content {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-  h2 {
-    color: #333;
-    font-size: 2rem;
-    margin-bottom: 20px;
-  }
-  
-  p {
-    color: #555;
-    font-size: 1.2rem;
-    line-height: 1.5;
-    margin-bottom: 20px;
-  }
-  
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  margin: 20px; /* Add spacing as needed */
+}
+
+.about-me-content {
+  flex: 1;
+  padding: 20px; /* Add spacing around the text */
+  text-align: center; /* Center text */
+}
+
+.about-me-image {
+  flex: 1;
+  padding: 20px; /* Add spacing around the image */
+  text-align: center; /* Center the image */
+}
+
+.about-me-image img {
+  max-width: 100%; /* Ensure the image fits within its container */
+  height: auto;
+}

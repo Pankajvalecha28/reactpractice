@@ -1,27 +1,29 @@
 import React from 'react';
-import navbarData from '../Data/NavbarData';
 import '../Styles/NavBar.css';
-import logo from '../Images/logo.png'
+
+const Navbar = (props) => {
+  const { navbarData, logoSrc } = props;
 
 
-
-const Navbar = () => {
   return (
     <div>
-    <nav>
-    <div className="logo">
-        <img src={logo} alt='Logo'/>
-      </div>
-      <ul>
-        {navbarData.map((item) => (
-           <li key={item.id}>  
-            <a href={item.link}>{item.title}</a>
-          </li>
-        ))}
-      </ul>
-    </nav>
+      <nav>
+        <div className="logo">
+          <img src={logoSrc} alt='Logo'/>
+        </div>
+        <ul>
+          {navbarData.map((item) => (
+            <li key={item.id}>  
+              <a href={item.link}>{item.title}</a>
+            </li>
+          ))}
+        </ul>
+      </nav>
     </div>
   )
 }
 
-export default Navbar
+
+
+export default Navbar;
+
